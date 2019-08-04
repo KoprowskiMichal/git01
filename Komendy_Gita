@@ -1,0 +1,56 @@
+Cd Destkop  * przejście na pulpit. dalej cd nazwa folderu / nazwa pliku
+
+mkdir (nazwa folderu ) * tworzy nam nowy folder
+
+ls -a * pokazuje wszystkie pliki nawet te ukryte
+
+rm (nazwa pliku) * usun pliki , rm -rf .git/ usuwa respozytiorium
+
+git status * sprawdza czy pliki są sledzone
+
+git diff * pokazuje co się zmieniło od ostatniego razu
+git diff --cached * pokazuje co się zmieniło od poczatku
+git diff --staged * pokazuje nam zmiany od poczatku
+git difftool * pokazuje zmiany w ostatnim pliku w VSC
+code . * pokazuje zmiany we wszystkich plikach w danym folderze w VSC
+
+git add -A * dodaje  wszystkie pliki do sledzenia
+git add (nazwa pliku) * zapisue i dodaje do śledzenia konkretny plik
+.
+git init - tworzy respodytorium
+git commit -m "Initial commit"  * dodaje 
+git commit -m "nazwa pliku file added"*dodaje plik co commita
+git commit -m "deleted nazwa pliku)* usuwa plik z commita
+git commit -m "added new line to (nazwa pliku) *dodaje linie do commita
+git commit -m ("nazwa folder added") * dodajemy folder do gita
+git commit --amend * nadpisze poprzedni commit
+git reset (nr commita) --mixed * przeniesie comita do workind directio
+git reset (nr commita) --hard * usuwa commita
+git reset HEAD~3 --soft *cofnie 3 commity ostatnie do staging area
+git reset HEAD *przenosi z staging arena do working directory ost. plik
+git reset HEAD (nazwa pliku)* przenosi konkretny plik
+git commit -m ("files 2, 3, 4, added) * z tych 3 plików zrobi 1 commita
+
+git log * pokazuje nam historie commita
+git log --oneline * pokazuje skróconą wersje historii
+git log -2 * wyswietlą nam się dwa ostatnie commity
+git log --graph * graficznie pokazuje historie
+git log --graph --oneline * gragicznie pokazuje skrócona wersje
+git log --oneline --graph --all * pokazuje wersje z sekcjami
+
+git branch * wyświetla dostępne branche
+git branch (nazwa bez duzych liter spacji) * tworzy nową branch
+
+
+git 
+
+git checkout (suma kontrolna gita) wejdzie do konkretnego commita i pokazuj stan jaki był wtedy
+git checkout master -git przeniesie nam HEADA na mastera na ostatni plik
+
+git reset (nr commita ) --soft * zmiany w working dir , commit usuniety
+git reset (nr commita)  --mix  * zmiany trafią do staging area 
+
+untracked files - niesledzony plik
+
+gdy chcemy w gicie zachowac pusty katalog do w tym katalogu zakladamy pusty plik o nazwie .gitkeep
+
