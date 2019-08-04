@@ -40,6 +40,14 @@ git log --oneline --graph --all * pokazuje wersje z sekcjami
 
 git branch * wyświetla dostępne branche
 git branch (nazwa bez duzych liter spacji) * tworzy nową branch
+git checkout nazwa brancha - przełacza aktywnego brancha
+git checkout-b nazwa brancha - tworzy branczha i ustawia go jako aktywny
+
+git clone adres_respozytorium - klonuje respozytorium
+git pull nazwa_serwera_zdalnego nazwa brancha 0 wciaga zdalnego brancha
+ na aktywny branch
+git pull nazwa_servera_zdalnego
+nazwa_brancha:nazwa brancha na ktory wciagnac zmiany - wciaga zmiany zdalnego brancha na lokalny branch o podanej nazwie
 
 
 git 
